@@ -23,47 +23,61 @@ teachable machine is algorithm to make model easy based on web ( https://teachab
 
 # Training on Your Own Dataset using teachable machine learning
 
-1. Make sure the path like this 
+1. Make sure the path like this, and open this link : https://teachablemachine.withgoogle.com/train/image
 
 ![Important Path](assets/2.PNG)
 
+![u can see the UI from teachable Machine ](assets/3.PNG)
 
-![Gdrive path](assets/3.PNG)
+2. Upload all data to teachable machine, just drag it and drop to upload link 
 
-![Train/val/Test Path](assets/4.PNG)
+![upload all data halal haram meragukan ](assets/4.PNG)
 
-2. Upload all data to google drive ,which one matching with google colab email
+3. just click train model or u can advance it with ur configuration
 
-3. Open google colab and use this code VGG16_CNN.ipynb, the part u must change just their class 
+![training configuration](assets/5.PNG)
 
-![train line codes you must change ](assets/5.PNG)
+4. u can see teh evaluation and ploting, just click "under the hood" 
 
-![train line codes you must change ](assets/6.PNG)
+![testing evaluation](assets/6.PNG)
 
-total lines u must change are 6 
+4. Download 2 model , we need 2 model to deploy it to android
+
+* click export model and go to tensorflow lite mode and download "floating point" and "quantized model" 
+
+![model 1](assets/7.PNG)
 
 
-# load model / Testing 
 
-1. Make sure the path like this 
+# Deploy on android
 
-![Important Path](assets/2.PNG)
+1. after u download this repo, go to path : "Halal_haram_doubt detector\app\src\main\assets" and put it the download model and extract it
 
-make sure again about Gdrive the important one dataset must be like this
+![extract data ](assets/8.PNG)
 
-![Gdrive path](assets/3.PNG)
+2. download android studio and install it, u can download here : https://developer.android.com/studio?hl=id
 
-![Train/val/Test Path](assets/4.PNG)
+3. open android studio and exisiting project 
 
-2. Upload all data to google drive ,which one matching with google colab email
+![android studio ](assets/9.PNG)
 
-3. Open google colab and use this code testing_load_image.ipynb, in this codes  just run all codes 
+it will take time for download some gradle 
 
-4. Upload Photo what u want to predict
+4.just put the path where u place this repo 
 
-![upload Photo](assets/7.PNG)
+![android studio ](assets/10.PNG)
 
-5. result like this
+5. go to build - build APK
 
-![Result](assets/8.PNG)
+![android studio ](assets/11.PNG)
+
+6. from here u get the app just put it to gdrive and download it (app-debug.apk)
+
+![android studio ](assets/12.PNG)
+
+# result 
+
+![android studio ](assets/1.PNG)
+
+
 

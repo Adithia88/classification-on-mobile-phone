@@ -41,7 +41,7 @@ teachable machine is algorithm to make model easy based on web ( https://teachab
 
 ![testing evaluation](assets/6.PNG)
 
-4. Download 2 model , we need 2 model to deploy it to android
+5. Download 2 model , we need 2 model to deploy it to android
 
 * click export model and go to tensorflow lite mode and download "floating point" and "quantized model" 
 

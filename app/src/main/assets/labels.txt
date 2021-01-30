@@ -1,0 +1,5 @@
+0 halal
+
+1 haram
+
+2 meragukan
